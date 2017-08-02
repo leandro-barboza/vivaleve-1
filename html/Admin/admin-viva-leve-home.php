@@ -9,7 +9,6 @@
             <?php include_once('parceiros.php');?>
 
             <?php include_once('duvidas.php');?>
-            <br><br>
     </div>
 
 <?php include_once('footer.php');?>
