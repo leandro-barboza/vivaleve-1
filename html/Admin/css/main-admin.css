@@ -188,7 +188,14 @@ body > section {
 	background: #0074B9;
 	width: 230px;
 	padding: 0 !important;
+  height: 600px !important;
 
+}
+
+.sem-magin{
+    background: #F2F2F2;
+    border-bottom: 5px solid #76a939;
+    font-size: 14px;
 }
 
 .menu-main ul li{
@@ -200,6 +207,43 @@ body > section {
 .menu-main ul li:hover{
 	background: #ffffff;
   	color: #000;
+}
+.centralizar{
+  margin-left: 32%;
+  margin-right: 40%;
+}
+.login-admin{
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+.login-admin h3{
+  background: #1D70B7;
+  padding: 5px;
+  margin-top: 0;
+  color: #ffffff;
+}
+.login-admin input{
+  width: 60%;
+}
+
+.login-admin input[type=submit]{
+  border: none;
+  padding: 4px;
+  font-size: 12pt;
+}
+
+.login-admin input[placeholder]{
+  padding-left: 10px;
+}
+
+.login-admin form{
+  margin-bottom: 20px;
+
+}
+
+.admin-logo{
+  margin-left: 23% !important;
+  margin-bottom: 5%;
 }
 
 .conteudo{
@@ -237,6 +281,15 @@ body > section {
 	width: 100%;
 	background: #0074B9 !important;
 	color: #ffffff;
+}
+
+.formulario-slideshow input[type=submit]{
+  border: none;
+  width: 100%;
+  font-weight: bold;
+  background: #49AD33;
+  color: #ffffff;
+
 }
 
 .files{
@@ -373,6 +426,12 @@ body > section {
 
 .menu-preco a{
   text-decoration: none !important;
+}
+
+.sempre-embaixo {
+    position: absolute !important;
+    bottom: 0px !important;
+    width: 100%;
 }
 
 /*************************
@@ -2438,9 +2497,3 @@ shortcodes page css
   text-align: center;
   
 }
-
-
-
-
-
-
